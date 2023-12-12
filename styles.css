@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+   border: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --bg-form: #131212f1;
+   --bg-button: #ff0043;
+   --text-color: #FFF;
+}
+body {
+   background-image: url('./assets/background.png');
+   background-size: cover;
+   background-position: right;
+   background-repeat: no-repeat;
+   height: 100vh;
+   color: var(--text-color);
+}
+
+.container-fluid {
+   height: 100vh;
+}
+ 
+form {
+   background: var(--bg-form);
+   width: 450px;
+}
+
+.wrapper-img {
+   width: 190px;
+}
+
+p {
+   margin-block: 0.5rem;
+}
+
+.btn-outline-danger {
+   color: var(--bg-button);
+}
+
+.btn-outline-danger:hover {
+   background-color: var(--bg-button);
+   color: var(--text-color);
+}
